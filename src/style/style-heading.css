@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.heading h2 {
+  font-size: 2.5em;
+  color: crimson;
+  opacity: 0.8;
+}
+.heading .more a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+
+  transition: 0.5s;
+}
+
+.heading .more a:hover {
+  font-size: 1.4em;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  border: none;
+  border-bottom: 1px solid crimson;
+  border-radius: 20px;
+  box-shadow: 5px black;
+
+  padding: 5px;
+}

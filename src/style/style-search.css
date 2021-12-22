@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.root {
+  width: 80%;
+}
+.container {
+  text-align: center;
+  width: 80%;
+
+  margin: auto;
+}
+.main-text {
+  font-size: 1.5em;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.main-text h1 {
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+/* search-bar */
+.search-bar {
+  margin: 40px 0 0 0;
+  height: 50px;
+
+  position: relative;
+  left: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.search-bar .first-wrap {
+  margin-right: 50px;
+  width: 50%;
+}
+
+.search-bar .first-wrap #search {
+  top: 10px;
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+
+  transition: 0.5s;
+}
+.search-bar .first-wrap #search:hover {
+  background-color: whitesmoke;
+  color: #008966;
+  font-weight: bolder;
+}
+
+.search-bar .first-wrap #search:focus {
+  outline: none;
+}
+
+.search-bar .second-wrap {
+  width: 10%;
+  height: 20px;
+}
+.search-bar .second-wrap .search {
+  background: crimson;
+  width: 100%;
+  padding: 7px;
+
+  border-radius: 20px;
+  border: 0;
+
+  transition: 2s;
+}
+.search-bar .second-wrap:focus {
+  outline: none;
+}
+.search-bar .second-wrap .search:focus {
+  outline: none;
+}
+
+.search-bar .search:hover {
+  cursor: pointer;
+  background-color: #023e8a;
+  opacity: 1;
+}

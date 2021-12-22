@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 3px 5px 10px #888888;
+  width: 15.59em;
+  height: 15.59em;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  position: relative;
+}
+
+.card-img img {
+  filter: brightness(80%);
+  border-radius: 20px;
+}
+
+.card-heading,
+.card-subheading,
+.more-info {
+  /* border: 1px solid rebeccapurple; */
+}
+
+.time-of-post {
+  background-color: whitesmoke;
+  word-wrap: wrap;
+  width: auto;
+  height: auto;
+  opacity: 0.8;
+
+  position: absolute;
+  top: 1.4em;
+  z-index: 4;
+  padding: 5px 8px;
+  margin-left: 8px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 10px #888888;
+
+  transition: 0.5s;
+}
+
+.time-of-post:hover {
+  cursor: pointer;
+  background-color: crimson;
+  opacity: 1;
+  color: black;
+  font-size: 1.1em;
+}
+
+.card-heading {
+  color: whitesmoke;
+  font-weight: bolder;
+
+  position: absolute;
+  top: 5em;
+  z-index: 4;
+  padding: 10px;
+}
+.sub-top-container {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sub-bottom-container {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  position: relative;
+  right: 5px;
+}
+.card-subheading {
+  text-align: center;
+}
+.card-subheading .subHeading {
+  letter-spacing: 1px;
+}
+
+.icon {
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.bath {
+  position: relative;
+  bottom: 1px;
+}
+.button {
+  /* width: 10em; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: auto;
+  height: autp;
+  background-color: papayawhip;
+  box-shadow: 3px 5px 10px #888888;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+
+  position: relative;
+  bottom: 4px;
+  right: 5px;
+
+  transition: 0.5s;
+
+  padding: 8px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: crimson;
+
+  color: rgb(212, 200, 200);
+}

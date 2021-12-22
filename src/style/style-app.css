@@ -1,0 +1,59 @@
+body {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app .search-app {
+  position: relative;
+  top: 80px;
+}
+.app .card-app {
+  display: block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.latest-heading-app,
+.random-home-preview {
+  margin: 50px;
+}
+
+.sefer-display {
+  margin: 50px;
+  margin-left: 0;
+  width: 100%;
+}
+
+/* sefer heading */
+
+.app .heading{
+  color:crimson;
+  margin:30px;
+  margin-left:60px;
+  font-size:1.6em;
+  opacity: 0.8;
+}
+#sefer-heading {
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+#sefer-heading{
+  color: black;
+  font-size: 2em;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
